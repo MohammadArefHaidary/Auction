@@ -576,15 +576,16 @@ video {
 .num-ntfs {
     display: flex;
     margin-top: 7px;
+    margin-bottom: 16px;
 }
 
 .collection-image {
-    width: 61px;
-    height: 58px;
+    width: 86px;
+    height: 83px;
     /* background-color: white; */
     background-image: url("./assets/images/pexels-photo-2915957.jpeg");
     border-radius: 13px;
-    border: 5px solid gray;
+    border: 7px solid gray;
     border-radius: 8px
 }
 
@@ -1340,9 +1341,9 @@ input:focus {
     transition: 0.3s ease;
 }
 
-.mobile-links .upper li :hover {
+/* .mobile-links .upper li :hover {
     color: blue;
-}
+} */
 
 .middle-mobile5 {
     display: flex;
@@ -1417,4 +1418,14 @@ input:focus {
 
 .card {
     width: 14rem;
+}
+
+@media (max-width:600px) {
+    .num-ntfs div button {
+        display: none;
+    }
+
+    .collection-user {
+        display: none;
+    }
 }
