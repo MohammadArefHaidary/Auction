@@ -890,7 +890,7 @@ div.div-value {
     -ms-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
-    border-radius: 15px;
+    /* border-radius: 7px; */
     border: none;
     background-color: white;
 }
@@ -940,7 +940,7 @@ div.div-value {
     -ms-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 
@@ -1388,7 +1388,7 @@ input:focus {
     .gallery>div.card {
         scroll-snap-align: center;
         display: inline-block;
-        border-radius: 40px;
+        /* border-radius: 40px; */
         /* background-color: red; */
         /* font-size: 0; */
     }
@@ -1399,9 +1399,22 @@ input:focus {
     }
 }
 
-/* 
+
 .gallery {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     overflow-y: hidden;
 
+}
+
+/* 
+@media (min-width:800px) {
+    .card {
+        width: 22rem;
+    }
+
 } */
+
+
+.card {
+    width: 14rem;
+}
