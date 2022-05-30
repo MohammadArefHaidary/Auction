@@ -567,7 +567,6 @@ video {
 .txt-image {
     display: flex;
     flex-direction: row;
-    margin-right: 45px;
     justify-content: center;
     align-items: center;
 }
@@ -1435,4 +1434,13 @@ input:focus {
 a:-webkit-any-link {
     /* color: -webkit-link; */
     cursor: pointer;
+}
+
+.main1 {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.all-collecttions {
+    padding: 32px;
 }
