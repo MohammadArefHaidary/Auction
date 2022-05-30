@@ -1444,3 +1444,28 @@ a:-webkit-any-link {
 .all-collecttions {
     padding: 32px;
 }
+
+
+@media (max-width: 800px) {
+    .main1 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+
+
+@media (max-width: 1279px) {
+    .card {
+        overflow: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+        width: 100vw;
+        scroll-snap-type: x mandatory;
+        scroll-padding-left: 24px;
+        scroll-padding-right: 24px;
+        gap: 32px;
+
+    }
+}
