@@ -1436,3 +1436,63 @@ a:-webkit-any-link {
     /* color: -webkit-link; */
     cursor: pointer;
 }
+
+@media (max-width: 1279px) {
+    .gallery {
+        width: 100vw;
+        margin-left: calc (24px)*-1;
+    }
+
+    .card {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        flex: 1 1 0%;
+        /* padding-left: 24px;
+        padding-right: 24px; */
+        width: 100%;
+    }
+
+    *, :after, :before {
+        box-sizing: inherit;
+    }
+}
+
+@media (max-width: 1279px) {
+    .card {
+        scroll-snap-align: start;
+    }
+
+    div {
+        display: block;
+    }
+
+}
+
+@media (max-width: 639px) {
+    /* .card {
+        min-width: 80vw;
+    } */
+
+    div {
+        display: block;
+    }
+}
+
+.card {
+    position: relative;
+}
+
+
+
+
+@media (max-width: 1279px) {
+    .card {
+        overflow: auto;
+        /* width: 100vw; */
+        scroll-snap-type: x mandatory;
+        scroll-padding-left: 24px;
+        scroll-padding-right: 24px;
+    }
+
+}
