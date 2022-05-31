@@ -501,6 +501,7 @@ video {
     box-sizing: inherit;
     display: flex;
     padding-left: 12px;
+    line-height: 1.5;
 }
 
 @media (min-width: 640px) {
@@ -946,7 +947,7 @@ div.div-value {
 
 .card:hover .test {
     opacity: 1;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .card:hover .test {
@@ -1488,4 +1489,45 @@ a:-webkit-any-link {
 
 *, ::after, ::before {
     box-sizing: border-box;
+}
+
+@media (max-width:480px) {
+
+    .hover-image h1 {
+        transform: translate(-65%, -50%);
+    }
+
+    .hover-image a {
+        transform: translate(-60%, -50%);
+    }
+
+}
+
+@media (max-width:338px) {
+
+    .hover-image h1 {
+        transform: translate(-70%, -50%);
+    }
+
+    .hover-image a {
+        transform: translate(-65%, -50%);
+    }
+
+}
+
+@media (max-width:278px) {
+
+    .hover-image h1 {
+        transform: translate(-75%, -50%);
+    }
+
+    .hover-image a {
+        transform: translate(-70%, -50%);
+    }
+
+}
+
+.middle-card-boxes {
+    max-width: 216px;
+    line-height: 1.5;
 }
