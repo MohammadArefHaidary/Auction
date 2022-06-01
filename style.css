@@ -1534,6 +1534,13 @@ a:-webkit-any-link {
 
 @media (max-width:600px) {
     .all-collecttions {
-        padding: 13px;
+        padding: 0px;
+    }
+}
+
+@media (max-width:600px) {
+    .collection1 {
+        display: flex;
+        justify-content: center;
     }
 }
