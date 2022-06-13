@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Work+Sans:wght@200&display=swap"
         rel="stylesheet">ّ
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -21,75 +23,76 @@
 <body>
 
 
-    <div class="colorr">
-        <!--large screen size navbar -->
-        <div id="nav4">
-            <nav class="navbar navbar-expand-lg" style="flex-direction: row-reverse;background-color: #f2f2f2;">
-                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
-                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="toggler-icon top-bar"></span>
-                    <span class="toggler-icon middle-bar"></span>
-                    <span class="toggler-icon bottom-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">لوگو</a>
-                <input class="form-control" type="search" placeholder="جستجو" aria-label="search" dir="rtl">
+    <!-- <div class="colorr"> -->
+    <!--large screen size navbar -->
+    <div id="nav4">
+        <nav class="navbar navbar-expand-lg" style="flex-direction: row-reverse;background-color: #f2f2f2;">
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">لوگو</a>
+            <input class="form-control" type="search" placeholder="جستجو" aria-label="search" dir="rtl">
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav" dir="rtl">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">کاوش</a>
-                        </li>
-                    </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-                    <div class="wallet"><button class="btn btn-outline-success raise"
-                            style="color: white;background-color: black;" type="submit">وصل شدن
-                            به کیف پول</button>
+                <div class="wallet"><button class="btn btn-outline-success raise"
+                        style="color: white;background-color: black;" type="submit">وصل شدن
+                        به کیف پول</button>
 
-                    </div>
                 </div>
-        </div>
-        </nav>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">کاوش</a>
+                    </li>
+                </ul>
 
-        <!-- End Navbar -->
-        <!-- mobile-navbar -->
-        <div class="main-mobile-nav">
-            <div class="mobile-nav">
-                <i class='fas fa-arrow-right'></i>
-                <input />
             </div>
+    </div>
+    </nav>
 
-            <div class="mobile-links">
-
-                <div class="upper" id="upper">
-                    <li>
-                        <a class="up active">بهترین</a>
-                    </li>
-                    <li>
-                        <a class="up">حساب ها</a>
-                    </li>
-                    <li>
-                        <a class="up">تگ ها</a>
-                    </li>
-                    <li>
-                        <a class="up"> مکان ها</a>
-                    </li>
-                </div>
-            </div>
-
+    <!-- End Navbar -->
+    <!-- mobile-navbar -->
+    <div class="main-mobile-nav">
+        <div class="mobile-nav">
+            <i class='fas fa-arrow-right'></i>
+            <input />
         </div>
 
-        <!-- end of mobile navbar -->
+        <div class="mobile-links">
+
+            <div class="upper" id="upper">
+                <li>
+                    <a class="up active">بهترین</a>
+                </li>
+                <li>
+                    <a class="up">حساب ها</a>
+                </li>
+                <li>
+                    <a class="up">تگ ها</a>
+                </li>
+                <li>
+                    <a class="up"> مکان ها</a>
+                </li>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- end of mobile navbar -->
 
 
-        <div class="container mb-4">
-            <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <img src="./nft.avif" alt="" style="width: 35%;" class="img-fluid">
-                </div>
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <img src="./nft.avif" alt="" style="width: 35%;" class="img-fluid">
             </div>
         </div>
     </div>
+    <!-- </div> -->
     </div>
     <div class="py-4">
         <section class="container-fluid">
@@ -127,9 +130,16 @@
                                     </h2>
                                     <p>ساعت دقیقه ثانیه</p>
                                 </div>
-                                <div class="col-md-12"><a href=""><button style="width: 100%;"> جای تخت</button></a>
+                                <div class="col-md-12"><a href=""><button style="width: 100%;" class="raise"> جای
+                                            تخت</button></a>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="d-flex" style="justify-content: center;">
+                        <div class="d-flex" style="align-items: center;">
+                            <div style="margin-top: 20px;">متعلق به</div>
+                            <div><a href="" class="user raise">@محمد</a></div>
                         </div>
                     </div>
                 </div>
@@ -138,7 +148,7 @@
 
         <section class="container-fluid">
             <div class="row" style="line-height: 1.6;">
-                <div class="col-md-6">
+                <div class="col-md-6 gx-5">
                     <h2>شرح</h2>
                     <hr>
                     <p>جای خالی با پژواک ها و رنگ های بی نهایت پر شده است.</p>
@@ -146,41 +156,161 @@
                         2022</p>
                     <h2>جزئیات</h2>
                     <hr>
-                    <div class="d-flex my-4" style="display: flex;flex-direction: column;">
-                        <a href="" class="text-muted">مشاهده در Etherscan</a>
-                        <a href="" class="text-muted">مشاهده متادیتا</a>
-                        <a href="" class="text-muted">مشاهده در IPFS</a>
+                    <div class="lnS d-flex my-4" style="display: flex;flex-direction: column;">
+                        <div style="display: flex;" class="lnks">
+                            <div><a href="" class="lnks">مشاهده در Etherscan</a></div>
+                            <div class="space lnks"><a href="" class="lnks"><span class="material-symbols-outlined">
+                                        visibility
+                                    </span></a></div>
+                        </div>
+                        <div style="display: flex;">
+                            <div><a href="" class="lnks">مشاهده متادیتا</a></div>
+                            <div class="space lnks"><span class="material-symbols-outlined">
+                                    view_in_ar
+                                </span></div>
+                        </div>
+                        <div style="display: flex;">
+                            <div>
+                                <a href="" class="lnks">مشاهده در IPFS</a></div>
+                            <div class="space  lnks"><span class="material-symbols-outlined">
+                                    view_kanban
+                                </span></div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex  align-items-center">
+                        <div style="width: 56px;height: 56px;border: 1px solid #e6e6e6;border-radius: 50%;" class="d-flex justify-content-center
+                        align-items-center py-4"><a href=""><svg viewBox="0 0 22 4" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" width="22" height="4"
+                                    style="display: block; position: relative;">
+                                    <path
+                                        d="M11 4C12.1046 4 13 3.10457 13 2C13 0.89543 12.1046 0 11 0C9.89543 0 9 0.89543 9 2C9 3.10457 9.89543 4 11 4Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 0 2 0C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M20 4C21.1046 4 22 3.10457 22 2C22 0.89543 21.1046 0 20 0C18.8954 0 18 0.89543 18 2C18 3.10457 18.8954 4 20 4Z"
+                                        fill="currentColor"></path>
+                                </svg></a></div>
+                        <button
+                            style="margin-right:25px;height: auto;background-color: white;box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);border-radius: 9999px;"
+                            class="d-flex bg-color-light align-items-center">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 16V1" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M17 7L11 1L5 7" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M21 21H1" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <div>
+                                <div>اشتراک گذاری</div>
+                                <div>کسب 1%</div>
+                            </div>
+                        </button>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 gx-5">
                     <h2>منشأ</h2>
                     <hr>
                     <div class="container-fluid pro my-2">
                         <div class="d-flex" style="justify-content:space-between;">
-                            <div>
-                                <p>پیشنهاد ارائه شده توسط
-                                    @bsoo3</p>
-                                <p>Jun 7, 2022 at 6:42pm</p>
+                            <div style="display: flex;flex-direction:row-reverse;align-items:center">
+                                <div class="space">
+                                    <p>ضرب شده توسط
+                                        @cutssss</p>
+                                    <p>Jun 7, 2022 at 6:42pm</p>
+                                </div>
+                                <div class="offer"><img src="./nft.avif" alt="" class="img-fluid"
+                                        style="border-radius:50%"></div>
                             </div>
                             <div>0.50 ETH</div>
                         </div>
                     </div>
                     <div class="container-fluid pro my-2">
                         <div class="d-flex" style="justify-content:space-between;">
-                            <div>
-                                <p>فهرست شده توسط
-                                    @cutssss</p>
-                                <p>Jun 7, 2022 at 6:42pm</p>
+                            <div style="display: flex;flex-direction:row-reverse;align-items:center">
+                                <div class="space">
+                                    <p>ضرب شده توسط
+                                        @cutssss</p>
+                                    <p>Jun 7, 2022 at 6:42pm</p>
+                                </div>
+                                <a href="">
+                                    <div class="offer"><img src="./nft.avif" alt="" class="img-fluid"
+                                            style="border-radius:50%"></div>
+                                </a>
                             </div>
                             <div>0.50 ETH</div>
                         </div>
                     </div>
                     <div class="container-fluid pro my-2">
                         <div class="d-flex" style="justify-content:space-between;">
-                            <div>
-                                <p>ضرب شده توسط
-                                    @cutssss</p>
-                                <p>Jun 7, 2022 at 6:42pm</p>
+                            <div style="display: flex;flex-direction:row-reverse;align-items:center">
+                                <div class="space">
+                                    <p>ضرب شده توسط
+                                        @cutssss</p>
+                                    <p>Jun 7, 2022 at 6:42pm</p>
+                                </div>
+                                <div class="offer"><img src="./nft.avif" alt="" class="img-fluid"
+                                        style="border-radius:50%"></div>
+                            </div>
+                            <div>0.50 ETH</div>
+                        </div>
+                    </div>
+                    <div class="container-fluid pro my-2">
+                        <div class="d-flex" style="justify-content:space-between;">
+                            <div style="display: flex;flex-direction:row-reverse;align-items:center">
+                                <div class="space">
+                                    <p>ضرب شده توسط
+                                        @cutssss</p>
+                                    <p>Jun 7, 2022 at 6:42pm</p>
+                                </div>
+                                <div class="offer"><img src="./nft.avif" alt="" class="img-fluid"
+                                        style="border-radius:50%"></div>
+                            </div>
+                            <div>0.50 ETH</div>
+                        </div>
+                    </div>
+                    <div class="container-fluid pro my-2">
+                        <div class="d-flex" style="justify-content:space-between;">
+                            <div style="display: flex;flex-direction:row-reverse;align-items:center">
+                                <div class="space">
+                                    <p>ضرب شده توسط
+                                        @cutssss</p>
+                                    <p>Jun 7, 2022 at 6:42pm</p>
+                                </div>
+                                <div class="offer"><img src="./nft.avif" alt="" class="img-fluid"
+                                        style="border-radius:50%"></div>
+                            </div>
+                            <div>0.50 ETH</div>
+                        </div>
+                    </div>
+                    <div class="container-fluid pro my-2">
+                        <div class="d-flex" style="justify-content:space-between;">
+                            <div style="display: flex;flex-direction:row-reverse;align-items:center">
+                                <div class="space">
+                                    <p>ضرب شده توسط
+                                        @cutssss</p>
+                                    <p>Jun 7, 2022 at 6:42pm</p>
+                                </div>
+                                <div class="offer"><img src="./nft.avif" alt="" class="img-fluid"
+                                        style="border-radius:50%"></div>
+                            </div>
+                            <div>0.50 ETH</div>
+                        </div>
+                    </div>
+                    <div class="container-fluid pro my-2">
+                        <div class="d-flex" style="justify-content:space-between;">
+                            <div style="display: flex;flex-direction:row-reverse;align-items:center">
+                                <div class="space">
+                                    <p>ضرب شده توسط
+                                        @cutssss</p>
+                                    <p>Jun 7, 2022 at 6:42pm</p>
+                                </div>
+                                <div class="offer"><img src="./nft.avif" alt="" class="img-fluid"
+                                        style="border-radius:50%"></div>
                             </div>
                             <div>0.50 ETH</div>
                         </div>
@@ -189,6 +319,7 @@
                 </div>
         </section>
     </div>
+
 
     <!-- large screen footer -->
     <footer dir="rtl">
