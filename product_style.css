@@ -696,3 +696,8 @@ a {
     transition: transform 100ms 300ms, box-shadow 500ms 1000ms;
     margin-top: 17px;
 }
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
