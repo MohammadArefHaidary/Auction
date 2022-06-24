@@ -158,7 +158,7 @@
 
 .form-control {
     /* margin-left: 22px; */
-    width: 67%;
+    width: 76%;
     padding: 15px;
     border-radius: 32px;
     /* outline: 0; */
@@ -701,3 +701,21 @@ a:hover {
     color: #000000;
     text-decoration: none;
 }
+
+.text-muted {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.user{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.svg-hover:hover {
+    
+    color: black;
+
+}
+
