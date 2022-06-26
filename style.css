@@ -48,7 +48,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-    margin: -2px;
+    /* margin: -2px; */
 }
 
 ol, ul {
@@ -218,7 +218,6 @@ table {
 
 .navbar {
 
-    margin-top: 23px;
     background-color: white;
 }
 
@@ -1362,8 +1361,6 @@ input:focus {
 .mobile-body {
     margin-top: -16px;
 }
-
-
 
 
 @media (max-width:800px) {
